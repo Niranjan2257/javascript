@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #profile {
+    margin-bottom: 20px;
+  }
+  
+  #repositories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .repository {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .repository h2 {
+    margin-top: 0;
+  }
+  
+  .repository p {
+    margin-bottom: 0;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

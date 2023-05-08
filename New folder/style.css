@@ -1,0 +1,37 @@
+.avatar {
+    float: right;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.profile_page{
+    background-color: rgba(0, 0, 0, 0.499);
+    align-items: center;
+    margin: 20px;
+    width: 97%;
+    height: 700px;
+    border-radius: 10px;
+}
+.profile_text{
+    font-size: 20px ;
+    color: antiquewhite;
+    font-family: cursive;
+    align-items: center;
+    padding-top: 200px;
+}
+
+
+h1{
+    color: aliceblue;
+    font-family: cursive ;
+    font-size: 40px;
+
+}
+body{
+    background-color: rgb(42, 39, 39);
+}
+.education{
+    align-items: center;
+}

@@ -17,14 +17,13 @@
 .profile_text{
     font-size: 20px ;
     color: antiquewhite;
-    font-family: cursive;
     align-items: center;
     padding-top: 200px;
 }
 
 
 h1{
-    color: aliceblue;
+    color: rgb(59, 156, 241);
     font-family: cursive ;
     font-size: 40px;
 
@@ -33,5 +32,17 @@ body{
     background-color: rgb(42, 39, 39);
 }
 .education{
-    align-items: center;
+        background-color: rgba(0, 0, 0, 0.499);
+        align-items: center;
+        margin: 20px;
+        width: 94%;     
+        border-radius: 10px;
+        padding: 20px;
 }
+.eduction_detail{
+    background-color: rgba(93, 68, 68, 0.549);
+    align-items: center;     
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+   }

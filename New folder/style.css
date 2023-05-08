@@ -40,9 +40,34 @@ body{
         padding: 20px;
 }
 .eduction_detail{
-    background-color: rgba(93, 68, 68, 0.549);
+    background-color: rgba(39, 50, 36, 0.549);
     align-items: center;     
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    color: rgb(97, 156, 203);
    }
+.skill{
+    background-color: rgba(0, 0, 0, 0.499);
+    align-items: center;
+    margin: 20px;
+    width: 94%;     
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row ;
+}
+.skill_item{
+    background-color: rgba(36, 30, 30, 0.858);
+    align-items: center;
+    color: aliceblue;
+    margin: auto ;
+    width: 100px;     
+    border-radius: 10px;
+    padding: 10px;
+}
+.skill_img{
+    height: 100px;
+    width: 100px;
+    text-align:;
+}

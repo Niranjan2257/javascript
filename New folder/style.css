@@ -10,7 +10,7 @@
     background-color: rgba(0, 0, 0, 0.499);
     align-items: center;
     margin: 20px;
-    width: 97%;
+    width: inherit;
     height: 700px;
     border-radius: 10px;
 }
@@ -29,13 +29,13 @@ h1{
 
 }
 body{
-    background-color: rgb(42, 39, 39);
+    background-color: rgb(61, 60, 60);
 }
 .education{
         background-color: rgba(0, 0, 0, 0.499);
         align-items: center;
         margin: 20px;
-        width: 94%;     
+        width: inherit;     
         border-radius: 10px;
         padding: 20px;
 }
@@ -51,16 +51,23 @@ body{
     background-color: rgba(0, 0, 0, 0.499);
     align-items: center;
     margin: 20px;
-    width: 94%;     
+    width: inherit;     
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.skill_bar{
+    align-items: center;
+    margin: 20px;
+    width: inherit;     
     border-radius: 10px;
     padding: 20px;
     display: flex;
-    flex-direction: row ;
 }
 .skill_item{
     background-color: rgba(36, 30, 30, 0.858);
     align-items: center;
-    color: aliceblue;
+    color: blanchedalmond;
     margin: auto ;
     width: 100px;     
     border-radius: 10px;
@@ -70,4 +77,30 @@ body{
     height: 100px;
     width: 100px;
     text-align:;
+}
+.work{
+    background-color: rgba(0, 0, 0, 0.499);
+    margin: 20px;
+    width: inherit;     
+    border-radius: 10px;
+    padding: 20px;
+}
+.work_item{
+    background-color: rgba(36, 30, 30, 0.858);
+    margin: 20px;
+    width: inherit;     
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+.work_logo{
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+.work_txt{
+    margin: 20px;
+    padding: 20px;
+    color: blanchedalmond;
 }

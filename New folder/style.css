@@ -63,6 +63,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 .skill_item{
     background-color: rgba(36, 30, 30, 0.858);
@@ -117,4 +118,11 @@ body{
         padding: 10px;
         text-decoration: none;
         
-    }
+}
+.about_pic{
+    border-radius: 30%;
+    position: relative;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+}

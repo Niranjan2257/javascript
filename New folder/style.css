@@ -19,12 +19,12 @@
     color: antiquewhite;
     align-items: center;
     padding-top: 200px;
+    float: left;
 }
 
 
 h1{
-    color: rgb(59, 156, 241);
-    font-family: cursive ;
+    color: rgb(80, 93, 21);
     font-size: 40px;
 
 }
@@ -130,3 +130,61 @@ body{
     max-height: 200px;
     overflow: hidden;
 }
+.resume{
+    border: 1px solid #0075f6;
+    color: rgb(39, 107, 128);
+    padding: 5px 20px;
+    text-transform: uppercase;
+    background-color: Transparent;
+    font-size: 12px;
+    letter-spacing: 3px;
+    align-content: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a8bac6;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #0b0f4b;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:inherit;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+   }
+  
+  .openbtn:hover {
+    background-color: #283833;
+  }
+  

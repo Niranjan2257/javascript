@@ -126,3 +126,7 @@ body{
     margin: 20px;
     padding: 20px;
 }
+  p {
+    max-height: 200px;
+    overflow: hidden;
+}

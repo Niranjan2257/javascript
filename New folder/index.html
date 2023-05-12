@@ -15,15 +15,37 @@
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
                         <a href="#skill">Work</a>
-                        <a href="./Resume.pdf">Resume</a>
-                        <a href="#">Contact</a>
+                        <a href="./Resume.pdf" download>Resume</a>
+                        <a href="#" onclick="openContact()">Contact</a>
+
+                        <div class="contact_window" id="contact_window">
+                            <div class="contact_box">
+                                <img class="contact_img" src="./image/contact.jpg" alt="">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeContact()">×</a>
+                                <div class="contact">
+                                    <h1>CONTACT ME</h1>                
+                                    <img style="width: 16px;" src="./image/gmail-logo.png" alt="">&nbsp;niranjan2257@gmail.com <br><br>
+                                    <img style="width: 16px;" src="./image/call.png" alt="">&nbsp;+91 7909060717
+                                    <h1>GET IN TOUCH</h1>
+                                    <div>
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/niranjann2257/"><img class="contact_logo" src="./image/linkedin.png" alt=""></a></li>
+                                            <li><a href="https://www.instagram.com/niranjan_nishutosh/"><img class="contact_logo" src="./image/instagram.png" alt=""></a></li>
+                                            <li><a href="https://github.com/Niranjan2257"><img class="contact_logo" src="./image/github.png" alt=""></a></li>
+                                            <li><a href="https://www.facebook.com/nishutosh.niranjan/"><img class="contact_logo" src="./image/facebook.png" alt=""></a></li>
+                                        </ul>
+                                    </div>                
+                                </div>                
+                            </div>
+                        </div>
+
                     </div>
                     <button class="openbtn" onclick="openNav()">☰</button>
                     <img src="./image/profile.jpg" class="avatar"></div>
                 <div style="width: 45%; float:right ">
-                    <div class="profile_text"><center><h1>NIRANJAN KUMAR</h1>
+                    <div class="profile_text"><center><h1 style="color: rgb(80, 93, 21);font-size: 40px;">NIRANJAN KUMAR</h1>
                         <p>COMPUTER SCIENCE ENGINEER</p>
-                        <button class="resume">DOWNLOAD CV</button></center>
+                        <button class="resume"><a style="text-decoration: none; color:inherit;" href="./Resume.pdf" download>DOWNLOAD CV</a></button></center>
                     </div>
                 </div>
                             
@@ -123,11 +145,11 @@
                 <div><CENTER><h2>CERTIFICATION</h2></CENTER></div>
                 <div class="skill_bar">
                     <div class="badge_item">
-                        <div><a href="https://www.credly.com/badges/cc3b0bbd-4f8b-4a46-a988-0ca0f4c77ba7/public_url"><img class="badge_img" src="./image/data analysis.png" alt="">
+                        <div><a style="text-decoration: none;color:inherit" href="https://www.credly.com/badges/cc3b0bbd-4f8b-4a46-a988-0ca0f4c77ba7/public_url"><img class="badge_img" src="./image/data analysis.png" alt="">
                             <center>Google Data Analytics Certificate</center></a></div>
                     </div>
                     <div class="badge_item">
-                        <div><a href="https://www.credly.com/badges/5da4ee62-3cd4-4fca-a402-b1412effb1ce/public_url"><img class="badge_img" src="./image/IBM_Cybersecurity_Analyst.png" alt="">
+                        <div><a style="text-decoration: none;color:inherit" href="https://www.credly.com/badges/5da4ee62-3cd4-4fca-a402-b1412effb1ce/public_url"><img class="badge_img" src="./image/IBM_Cybersecurity_Analyst.png" alt="">
                             <center>IBM Cybersecurity Analyst <br>Professional Certificate</center></a></div>
                     </div>
                 </div>
